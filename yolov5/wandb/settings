@@ -1,0 +1,7 @@
+[default]
+entity = xijier
+project = yolov5-master
+base_url = https://api.wandb.ai
+disabled = true
+mode = offline
+
