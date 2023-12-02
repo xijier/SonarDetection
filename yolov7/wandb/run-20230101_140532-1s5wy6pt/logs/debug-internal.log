@@ -1,0 +1,191 @@
+2023-01-01 14:05:32,399 INFO    StreamThr :16124 [internal.py:wandb_internal():87] W&B internal server running at pid: 16124, started at: 2023-01-01 14:05:32.398762
+2023-01-01 14:05:32,400 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: status
+2023-01-01 14:05:32,404 DEBUG   SenderThread:16124 [sender.py:send_request():317] send_request: status
+2023-01-01 14:05:32,463 INFO    WriterThread:16124 [datastore.py:open_for_write():75] open: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\run-1s5wy6pt.wandb
+2023-01-01 14:05:32,463 DEBUG   SenderThread:16124 [sender.py:send():303] send: header
+2023-01-01 14:05:32,465 DEBUG   SenderThread:16124 [sender.py:send():303] send: run
+2023-01-01 14:05:32,474 INFO    SenderThread:16124 [sender.py:_maybe_setup_resume():593] checking resume status for None/train/1s5wy6pt
+2023-01-01 14:05:37,513 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-01 14:05:42,548 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-01 14:05:47,597 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-01 14:05:52,645 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-01 14:05:53,761 INFO    SenderThread:16124 [dir_watcher.py:__init__():216] watching files in: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files
+2023-01-01 14:05:53,762 INFO    SenderThread:16124 [sender.py:_start_run_threads():928] run started: 1s5wy6pt with start time 1672553132.400757
+2023-01-01 14:05:53,809 DEBUG   SenderThread:16124 [sender.py:send():303] send: summary
+2023-01-01 14:05:53,810 INFO    SenderThread:16124 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-01 14:05:53,812 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: check_version
+2023-01-01 14:05:53,812 DEBUG   SenderThread:16124 [sender.py:send_request():317] send_request: check_version
+2023-01-01 14:05:54,771 INFO    Thread-17 :16124 [dir_watcher.py:_on_file_created():275] file/dir created: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\wandb-summary.json
+2023-01-01 14:05:56,839 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: run_start
+2023-01-01 14:05:56,877 DEBUG   HandlerThread:16124 [system_info.py:__init__():31] System info init
+2023-01-01 14:05:56,877 DEBUG   HandlerThread:16124 [system_info.py:__init__():46] System info init done
+2023-01-01 14:05:56,877 INFO    HandlerThread:16124 [system_monitor.py:start():150] Starting system monitor
+2023-01-01 14:05:56,877 INFO    SystemMonitor:16124 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-01 14:05:56,877 INFO    HandlerThread:16124 [system_monitor.py:probe():171] Collecting system info
+2023-01-01 14:05:56,880 INFO    SystemMonitor:16124 [interfaces.py:start():168] Started cpu
+2023-01-01 14:05:56,880 INFO    SystemMonitor:16124 [interfaces.py:start():168] Started disk
+2023-01-01 14:05:56,881 INFO    SystemMonitor:16124 [interfaces.py:start():168] Started gpu
+2023-01-01 14:05:56,886 INFO    SystemMonitor:16124 [interfaces.py:start():168] Started memory
+2023-01-01 14:05:56,899 INFO    SystemMonitor:16124 [interfaces.py:start():168] Started network
+2023-01-01 14:05:56,911 DEBUG   HandlerThread:16124 [system_info.py:probe():195] Probing system
+2023-01-01 14:05:56,913 DEBUG   HandlerThread:16124 [git.py:repo():40] git repository is invalid
+2023-01-01 14:05:56,913 DEBUG   HandlerThread:16124 [system_info.py:probe():241] Probing system done
+2023-01-01 14:05:56,913 DEBUG   HandlerThread:16124 [system_monitor.py:probe():180] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.9.15', 'heartbeatAt': '2023-01-01T06:05:56.911618', 'startedAt': '2023-01-01T06:05:32.380096', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'E:\\kg\\yoloair-iscyy-beta\\train.py', 'codePath': 'train.py', 'host': 'PS2021OSSKCRPK', 'username': 'Admin', 'executable': 'C:\\ProgramData\\Anaconda3\\envs\\yolov7_d2-main\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2904.0, 'min': 0.0, 'max': 2904.0}, 'cpu_freq_per_core': [{'current': 2904.0, 'min': 0.0, 'max': 2904.0}], 'disk': {'total': 476.81347274780273, 'used': 352.52425384521484}, 'gpu': 'NVIDIA GeForce RTX 2060', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2060', 'memory_total': 6442450944}], 'memory': {'total': 15.85699462890625}}
+2023-01-01 14:05:56,913 INFO    HandlerThread:16124 [system_monitor.py:probe():181] Finished collecting system info
+2023-01-01 14:05:56,913 INFO    HandlerThread:16124 [system_monitor.py:probe():184] Publishing system info
+2023-01-01 14:05:56,913 DEBUG   HandlerThread:16124 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-01-01 14:05:56,914 DEBUG   HandlerThread:16124 [system_info.py:_save_pip():67] Saving pip packages done
+2023-01-01 14:05:56,915 DEBUG   HandlerThread:16124 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-01-01 14:05:57,805 INFO    Thread-17 :16124 [dir_watcher.py:_on_file_created():275] file/dir created: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\requirements.txt
+2023-01-01 14:05:57,806 INFO    Thread-17 :16124 [dir_watcher.py:_on_file_created():275] file/dir created: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\conda-environment.yaml
+2023-01-01 14:06:01,415 DEBUG   HandlerThread:16124 [system_info.py:_save_conda():86] Saving conda packages done
+2023-01-01 14:06:01,417 INFO    HandlerThread:16124 [system_monitor.py:probe():186] Finished publishing system info
+2023-01-01 14:06:01,477 DEBUG   SenderThread:16124 [sender.py:send():303] send: files
+2023-01-01 14:06:01,477 INFO    SenderThread:16124 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-01-01 14:06:01,486 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-01 14:06:01,486 DEBUG   SenderThread:16124 [sender.py:send_request():317] send_request: stop_status
+2023-01-01 14:06:01,834 INFO    Thread-17 :16124 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\conda-environment.yaml
+2023-01-01 14:06:01,835 INFO    Thread-17 :16124 [dir_watcher.py:_on_file_created():275] file/dir created: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\wandb-metadata.json
+2023-01-01 14:06:03,013 INFO    Thread-20 :16124 [upload_job.py:push():143] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpxv6f9orhwandb\1imq9oq8-wandb-metadata.json
+2023-01-01 14:06:03,863 DEBUG   SenderThread:16124 [sender.py:send():303] send: telemetry
+2023-01-01 14:06:03,863 DEBUG   SenderThread:16124 [sender.py:send():303] send: config
+2023-01-01 14:06:04,841 INFO    Thread-17 :16124 [dir_watcher.py:_on_file_created():275] file/dir created: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\output.log
+2023-01-01 14:06:06,848 INFO    Thread-17 :16124 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\output.log
+2023-01-01 14:06:14,910 INFO    Thread-17 :16124 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\output.log
+2023-01-01 14:06:16,917 INFO    Thread-17 :16124 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\output.log
+2023-01-01 14:06:18,869 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-01 14:06:18,870 DEBUG   SenderThread:16124 [sender.py:send_request():317] send_request: stop_status
+2023-01-01 14:06:18,933 INFO    Thread-17 :16124 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\output.log
+2023-01-01 14:06:20,956 INFO    Thread-17 :16124 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\output.log
+2023-01-01 14:06:32,038 INFO    Thread-17 :16124 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\output.log
+2023-01-01 14:06:32,376 DEBUG   SenderThread:16124 [sender.py:send():303] send: exit
+2023-01-01 14:06:32,376 INFO    SenderThread:16124 [sender.py:send_exit():442] handling exit code: 1
+2023-01-01 14:06:32,377 INFO    SenderThread:16124 [sender.py:send_exit():444] handling runtime: 35
+2023-01-01 14:06:32,377 INFO    SenderThread:16124 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-01 14:06:32,377 INFO    SenderThread:16124 [sender.py:send_exit():450] send defer
+2023-01-01 14:06:32,378 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: defer
+2023-01-01 14:06:32,378 INFO    HandlerThread:16124 [handler.py:handle_request_defer():162] handle defer: 0
+2023-01-01 14:06:32,378 DEBUG   SenderThread:16124 [sender.py:send_request():317] send_request: defer
+2023-01-01 14:06:32,378 INFO    SenderThread:16124 [sender.py:send_request_defer():459] handle sender defer: 0
+2023-01-01 14:06:32,378 INFO    SenderThread:16124 [sender.py:transition_state():463] send defer: 1
+2023-01-01 14:06:32,378 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: defer
+2023-01-01 14:06:32,378 INFO    HandlerThread:16124 [handler.py:handle_request_defer():162] handle defer: 1
+2023-01-01 14:06:32,378 INFO    HandlerThread:16124 [system_monitor.py:finish():160] Stopping system monitor
+2023-01-01 14:06:32,378 DEBUG   SystemMonitor:16124 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-01 14:06:32,379 DEBUG   SystemMonitor:16124 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-01-01 14:06:32,379 DEBUG   SystemMonitor:16124 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-01-01 14:06:32,383 INFO    HandlerThread:16124 [interfaces.py:finish():175] Joined cpu
+2023-01-01 14:06:32,384 INFO    HandlerThread:16124 [interfaces.py:finish():175] Joined disk
+2023-01-01 14:06:32,404 INFO    HandlerThread:16124 [interfaces.py:finish():175] Joined gpu
+2023-01-01 14:06:32,405 INFO    HandlerThread:16124 [interfaces.py:finish():175] Joined memory
+2023-01-01 14:06:32,405 INFO    HandlerThread:16124 [interfaces.py:finish():175] Joined network
+2023-01-01 14:06:32,405 DEBUG   SenderThread:16124 [sender.py:send_request():317] send_request: defer
+2023-01-01 14:06:32,405 INFO    SenderThread:16124 [sender.py:send_request_defer():459] handle sender defer: 1
+2023-01-01 14:06:32,405 INFO    SenderThread:16124 [sender.py:transition_state():463] send defer: 2
+2023-01-01 14:06:32,405 DEBUG   SenderThread:16124 [sender.py:send():303] send: stats
+2023-01-01 14:06:32,406 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: defer
+2023-01-01 14:06:32,406 INFO    HandlerThread:16124 [handler.py:handle_request_defer():162] handle defer: 2
+2023-01-01 14:06:32,406 DEBUG   SenderThread:16124 [sender.py:send_request():317] send_request: defer
+2023-01-01 14:06:32,406 INFO    SenderThread:16124 [sender.py:send_request_defer():459] handle sender defer: 2
+2023-01-01 14:06:32,406 INFO    SenderThread:16124 [sender.py:transition_state():463] send defer: 3
+2023-01-01 14:06:32,406 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: defer
+2023-01-01 14:06:32,406 INFO    HandlerThread:16124 [handler.py:handle_request_defer():162] handle defer: 3
+2023-01-01 14:06:32,406 DEBUG   SenderThread:16124 [sender.py:send_request():317] send_request: defer
+2023-01-01 14:06:32,406 INFO    SenderThread:16124 [sender.py:send_request_defer():459] handle sender defer: 3
+2023-01-01 14:06:32,406 INFO    SenderThread:16124 [sender.py:transition_state():463] send defer: 4
+2023-01-01 14:06:32,407 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: defer
+2023-01-01 14:06:32,407 INFO    HandlerThread:16124 [handler.py:handle_request_defer():162] handle defer: 4
+2023-01-01 14:06:32,407 DEBUG   SenderThread:16124 [sender.py:send():303] send: summary
+2023-01-01 14:06:32,407 INFO    SenderThread:16124 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-01 14:06:32,408 DEBUG   SenderThread:16124 [sender.py:send_request():317] send_request: defer
+2023-01-01 14:06:32,408 INFO    SenderThread:16124 [sender.py:send_request_defer():459] handle sender defer: 4
+2023-01-01 14:06:32,408 INFO    SenderThread:16124 [sender.py:transition_state():463] send defer: 5
+2023-01-01 14:06:32,408 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: defer
+2023-01-01 14:06:32,408 INFO    HandlerThread:16124 [handler.py:handle_request_defer():162] handle defer: 5
+2023-01-01 14:06:32,408 DEBUG   SenderThread:16124 [sender.py:send_request():317] send_request: defer
+2023-01-01 14:06:32,408 INFO    SenderThread:16124 [sender.py:send_request_defer():459] handle sender defer: 5
+2023-01-01 14:06:33,049 INFO    Thread-17 :16124 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\wandb-summary.json
+2023-01-01 14:06:33,375 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-01 14:06:34,059 INFO    Thread-17 :16124 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\output.log
+2023-01-01 14:06:35,020 INFO    SenderThread:16124 [sender.py:transition_state():463] send defer: 6
+2023-01-01 14:06:35,021 DEBUG   SenderThread:16124 [sender.py:send_request():317] send_request: poll_exit
+2023-01-01 14:06:35,021 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: defer
+2023-01-01 14:06:35,021 INFO    HandlerThread:16124 [handler.py:handle_request_defer():162] handle defer: 6
+2023-01-01 14:06:35,021 DEBUG   SenderThread:16124 [sender.py:send_request():317] send_request: defer
+2023-01-01 14:06:35,021 INFO    SenderThread:16124 [sender.py:send_request_defer():459] handle sender defer: 6
+2023-01-01 14:06:35,069 INFO    Thread-17 :16124 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\config.yaml
+2023-01-01 14:06:36,033 INFO    SenderThread:16124 [sender.py:transition_state():463] send defer: 7
+2023-01-01 14:06:36,034 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: defer
+2023-01-01 14:06:36,034 INFO    HandlerThread:16124 [handler.py:handle_request_defer():162] handle defer: 7
+2023-01-01 14:06:36,034 DEBUG   SenderThread:16124 [sender.py:send_request():317] send_request: defer
+2023-01-01 14:06:36,034 INFO    SenderThread:16124 [sender.py:send_request_defer():459] handle sender defer: 7
+2023-01-01 14:06:36,034 INFO    SenderThread:16124 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-01-01 14:06:36,079 INFO    SenderThread:16124 [dir_watcher.py:_on_file_modified():292] file/dir modified: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\output.log
+2023-01-01 14:06:36,080 INFO    SenderThread:16124 [dir_watcher.py:finish():392] scan: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files
+2023-01-01 14:06:36,080 INFO    SenderThread:16124 [dir_watcher.py:finish():406] scan save: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\conda-environment.yaml conda-environment.yaml
+2023-01-01 14:06:36,080 INFO    SenderThread:16124 [dir_watcher.py:finish():406] scan save: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\config.yaml config.yaml
+2023-01-01 14:06:36,082 INFO    SenderThread:16124 [dir_watcher.py:finish():406] scan save: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\output.log output.log
+2023-01-01 14:06:36,083 INFO    SenderThread:16124 [dir_watcher.py:finish():406] scan save: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\requirements.txt requirements.txt
+2023-01-01 14:06:36,088 INFO    SenderThread:16124 [dir_watcher.py:finish():406] scan save: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\wandb-metadata.json wandb-metadata.json
+2023-01-01 14:06:36,088 INFO    SenderThread:16124 [dir_watcher.py:finish():406] scan save: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\wandb-summary.json wandb-summary.json
+2023-01-01 14:06:36,091 INFO    SenderThread:16124 [sender.py:transition_state():463] send defer: 8
+2023-01-01 14:06:36,091 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: defer
+2023-01-01 14:06:36,091 INFO    HandlerThread:16124 [handler.py:handle_request_defer():162] handle defer: 8
+2023-01-01 14:06:36,091 DEBUG   SenderThread:16124 [sender.py:send_request():317] send_request: defer
+2023-01-01 14:06:36,093 INFO    SenderThread:16124 [sender.py:send_request_defer():459] handle sender defer: 8
+2023-01-01 14:06:36,093 INFO    SenderThread:16124 [file_pusher.py:finish():168] shutting down file pusher
+2023-01-01 14:06:37,391 INFO    Thread-30 :16124 [upload_job.py:push():143] Uploaded file E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\config.yaml
+2023-01-01 14:06:37,440 INFO    Thread-29 :16124 [upload_job.py:push():143] Uploaded file E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\conda-environment.yaml
+2023-01-01 14:06:38,431 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-01 14:06:43,489 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-01 14:06:48,537 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-01 14:06:53,566 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-01 14:06:58,588 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-01 14:07:03,635 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-01 14:07:08,687 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-01 14:07:13,763 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-01 14:07:18,812 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-01 14:07:19,301 INFO    Thread-32 :16124 [upload_job.py:push():143] Uploaded file E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\requirements.txt
+2023-01-01 14:07:23,861 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-01 14:07:28,897 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: keepalive
+2023-01-01 14:07:31,608 INFO    Thread-33 :16124 [upload_job.py:push():143] Uploaded file E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\wandb-summary.json
+2023-01-01 14:07:31,645 INFO    Thread-31 :16124 [upload_job.py:push():143] Uploaded file E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\files\output.log
+2023-01-01 14:07:31,860 INFO    Thread-16 :16124 [sender.py:transition_state():463] send defer: 9
+2023-01-01 14:07:31,860 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: defer
+2023-01-01 14:07:31,860 INFO    HandlerThread:16124 [handler.py:handle_request_defer():162] handle defer: 9
+2023-01-01 14:07:31,860 DEBUG   SenderThread:16124 [sender.py:send_request():317] send_request: defer
+2023-01-01 14:07:31,860 INFO    SenderThread:16124 [sender.py:send_request_defer():459] handle sender defer: 9
+2023-01-01 14:07:31,860 INFO    SenderThread:16124 [file_pusher.py:join():173] waiting for file pusher
+2023-01-01 14:07:31,860 INFO    SenderThread:16124 [sender.py:transition_state():463] send defer: 10
+2023-01-01 14:07:31,861 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: defer
+2023-01-01 14:07:31,861 INFO    HandlerThread:16124 [handler.py:handle_request_defer():162] handle defer: 10
+2023-01-01 14:07:31,861 DEBUG   SenderThread:16124 [sender.py:send_request():317] send_request: defer
+2023-01-01 14:07:31,861 INFO    SenderThread:16124 [sender.py:send_request_defer():459] handle sender defer: 10
+2023-01-01 14:07:32,126 INFO    SenderThread:16124 [sender.py:transition_state():463] send defer: 11
+2023-01-01 14:07:32,126 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: defer
+2023-01-01 14:07:32,126 INFO    HandlerThread:16124 [handler.py:handle_request_defer():162] handle defer: 11
+2023-01-01 14:07:32,126 DEBUG   SenderThread:16124 [sender.py:send_request():317] send_request: defer
+2023-01-01 14:07:32,126 INFO    SenderThread:16124 [sender.py:send_request_defer():459] handle sender defer: 11
+2023-01-01 14:07:32,126 INFO    SenderThread:16124 [sender.py:transition_state():463] send defer: 12
+2023-01-01 14:07:32,127 DEBUG   SenderThread:16124 [sender.py:send():303] send: final
+2023-01-01 14:07:32,127 DEBUG   SenderThread:16124 [sender.py:send():303] send: footer
+2023-01-01 14:07:32,127 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: defer
+2023-01-01 14:07:32,127 INFO    HandlerThread:16124 [handler.py:handle_request_defer():162] handle defer: 12
+2023-01-01 14:07:32,127 DEBUG   SenderThread:16124 [sender.py:send_request():317] send_request: defer
+2023-01-01 14:07:32,127 INFO    SenderThread:16124 [sender.py:send_request_defer():459] handle sender defer: 12
+2023-01-01 14:07:32,128 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: poll_exit
+2023-01-01 14:07:32,128 DEBUG   SenderThread:16124 [sender.py:send_request():317] send_request: poll_exit
+2023-01-01 14:07:32,128 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: server_info
+2023-01-01 14:07:32,129 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: get_summary
+2023-01-01 14:07:32,129 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: sampled_history
+2023-01-01 14:07:32,129 DEBUG   SenderThread:16124 [sender.py:send_request():317] send_request: server_info
+2023-01-01 14:07:34,095 INFO    MainThread:16124 [wandb_run.py:_footer_history_summary_info():3408] rendering history
+2023-01-01 14:07:34,095 INFO    MainThread:16124 [wandb_run.py:_footer_history_summary_info():3440] rendering summary
+2023-01-01 14:07:34,095 INFO    MainThread:16124 [wandb_run.py:_footer_sync_info():3364] logging synced files
+2023-01-01 14:07:34,096 DEBUG   HandlerThread:16124 [handler.py:handle_request():139] handle_request: shutdown
+2023-01-01 14:07:34,096 INFO    HandlerThread:16124 [handler.py:finish():814] shutting down handler
+2023-01-01 14:07:34,154 INFO    WriterThread:16124 [datastore.py:close():279] close: E:\kg\yoloair-iscyy-beta\wandb\run-20230101_140532-1s5wy6pt\run-1s5wy6pt.wandb
+2023-01-01 14:07:35,108 INFO    SenderThread:16124 [sender.py:finish():1331] shutting down sender
+2023-01-01 14:07:35,108 INFO    SenderThread:16124 [file_pusher.py:finish():168] shutting down file pusher
+2023-01-01 14:07:35,108 INFO    SenderThread:16124 [file_pusher.py:join():173] waiting for file pusher
+2023-01-01 14:07:35,109 INFO    MainThread:16124 [internal.py:handle_exit():77] Internal process exited

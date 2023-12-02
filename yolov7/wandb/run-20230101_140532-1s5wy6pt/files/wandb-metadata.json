@@ -1,0 +1,44 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.9.15",
+    "heartbeatAt": "2023-01-01T06:05:56.911618",
+    "startedAt": "2023-01-01T06:05:32.380096",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "E:\\kg\\yoloair-iscyy-beta\\train.py",
+    "codePath": "train.py",
+    "host": "PS2021OSSKCRPK",
+    "username": "Admin",
+    "executable": "C:\\ProgramData\\Anaconda3\\envs\\yolov7_d2-main\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2904.0,
+        "min": 0.0,
+        "max": 2904.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2904.0,
+            "min": 0.0,
+            "max": 2904.0
+        }
+    ],
+    "disk": {
+        "total": 476.81347274780273,
+        "used": 352.52425384521484
+    },
+    "gpu": "NVIDIA GeForce RTX 2060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2060",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.85699462890625
+    }
+}
