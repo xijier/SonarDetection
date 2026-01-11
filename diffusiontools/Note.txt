@@ -1,0 +1,3 @@
+stable-diffusion-webui: Lora + ControlNet
+kohya_ss: train model
+Yolov8: Detecion & classification Model
